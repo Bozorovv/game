@@ -1,0 +1,169 @@
+.info {
+    background-image: url("../image/bacground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+    margin: 0 auto;
+    height: 881px;
+
+
+
+}
+
+
+
+
+.info__content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    width: 750px;
+    display: block;
+    margin: 0 auto 25px;
+
+}
+
+.info__content h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    width: 750px;
+    display: block;
+    margin: 0 auto 99px;
+
+}
+
+.info__card h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.info__card {
+    width: 220px;
+    height: 170px;
+    margin-bottom: 62px;
+
+}
+
+.info__card img {
+    margin: 0 auto;
+    display: block;
+}
+
+.info__img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+
+.info__img2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 92px;
+
+}
+
+.info__content {
+    padding-top: 93px;
+}
+
+
+@media(max-width:1155px) {
+    .info__img {
+        gap: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info__img2 {
+        gap: 50px;
+    }
+
+}
+
+@media(max-width:960px) {
+    .info__img {
+        gap: 20px;
+    }
+
+    .info__img2 {
+        gap: 20px;
+    }
+
+    .info__card h3 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 137%;
+    }
+}
+
+@media(max-width:870px) {
+    .info__img {
+        gap: 5px;
+    }
+
+    .info__img2 {
+        gap: 0px;
+        display: flex;
+
+    }
+}
+
+@media(max-width:800px) {
+    .info__content h1 {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto 25px;
+    }
+
+    .info__content h5 {
+        width: 80%;
+        text-align: center;
+    }
+
+}
+
+
+
+@media(max-width:550px) {
+    .info__content h1 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 137%;
+        margin-bottom: 15px;
+    }
+    .info__content h5{
+        font-weight: 250;
+        font-size: 14px;
+        line-height: 137%;
+        margin-bottom: 40px;
+    }
+    .info__img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        right: 0;
+    }
+    .info__card h3 {
+        margin-top: 15px;
+        margin-bottom: 14px;
+    }
+
+}

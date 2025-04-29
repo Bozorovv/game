@@ -1,0 +1,124 @@
+.card2{
+    margin-top: 144px;
+}
+.card2 h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 25px;
+line-height: 180%;
+color: #fff;
+}
+.card_wrapper{
+    display: flex;
+ 
+    margin-top: 63px;
+   gap: 43px;
+    
+}
+.card_content{
+    border-radius: 20px;
+    width: 378px;
+    height: 348px;
+    box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+background: #1c140f;
+left: 30px;
+
+
+
+}
+.card_content h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187%;
+    color: #fff;
+    display: flex;
+  
+   
+    margin-left: 23px;
+    margin-bottom: 16px;
+}
+.div{
+    border-radius: 8px;
+width: 140px;
+height: 39px;
+background: rgba(176, 0, 220, 0.11);
+text-align: center;
+margin-top: 64px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+margin-bottom: 19px;
+}
+.div1{
+    border-radius: 8px;
+width: 140px;
+height: 39px;
+background: rgba(220, 66, 0, 0.11);
+text-align: center;
+margin-top: 64px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+margin-bottom: 19px;
+}
+.div2{
+    border-radius: 8px;
+width: 140px;
+height: 39px;
+background: rgba(0, 220, 141, 0.11);
+text-align: center;
+margin-top: 64px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+margin-bottom: 19px;
+}
+
+
+.card_content p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 187%;
+color: #fff;
+margin-top: 16px;
+width: 304px;
+
+margin: 0 auto;
+display: block;
+
+}
+
+
+
+@media(max-width:1124px){
+.card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:849px){
+.card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}

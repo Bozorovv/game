@@ -1,0 +1,66 @@
+.a__info {
+    margin-top: 148px;
+}
+.a__info h2{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 25px;
+line-height: 180%;
+color: #fff;
+margin-bottom: 53px;
+}
+
+.ai__card{
+    border-radius: 20px;
+width: 295px;
+height: 253px;
+background: #1c140f;
+
+}
+
+.ai__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 28px;
+}
+
+.ai__card h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 19px;
+line-height: 203%;
+color: #fff;
+text-align: center;
+}
+.ai__card h4{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 16px;
+line-height: 203%;
+color: #e8e8e8;
+text-align: center;
+}
+
+.ai__card img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+}
+@media(max-width:1551px){
+    
+    .ai__wrapper{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:751px){
+    .ai__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    
+    }
+}

@@ -1,0 +1,123 @@
+.main__img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    margin-bottom: 33px;
+    width: 100%;
+}
+
+.main__img2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    margin-bottom: 72px;
+    width: 100%;
+}
+
+
+
+.main__wrapper h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 148px;
+}
+
+.main__wrapper p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    display: block;
+    margin: 0 auto 71px;
+
+}
+
+.btnn button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 187%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    border: none;
+
+}
+
+.btnn {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 105px;
+}
+
+.main__wrapper {
+    max-width: 1170px;
+}
+
+
+@media(max-width:1240px) {
+    .main__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17px;
+        width: 100%;
+    }
+
+    .main__img .main__card img {
+        width: 100%;
+    }
+}
+
+@media(max-width:1240px) {
+    .main__img2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17px;
+        width: 100%;
+    }
+
+    .main__img2 .main__card img {
+        width: 100%;
+    }
+}
+
+@media(max-width:900px) {
+    .main__wrapper h1 {
+        margin-bottom: 15px;
+        margin-top: 108px;
+        font-weight: 550;
+        font-size: 30px;
+        line-height: 137%;
+    }
+
+    .main__wrapper p {
+        font-weight: 350;
+        font-size: 12px;
+        line-height: 137%;
+        width: 50%;
+        margin: 0 auto 41px;
+    }
+}
+
+@media(max-width:800px) {
+    .btnn button {
+        width: 100px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 137%;
+    }
+}
