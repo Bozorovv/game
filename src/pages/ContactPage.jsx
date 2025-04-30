@@ -1,13 +1,13 @@
 import React from 'react'
 import Contact from '../component/Contact'
-import Contact_hero from '../component/Contact_hero'
+import ContactHero from '../component/ContactHero'
 import ContactEnd from '../component/ContactEnd'
 
 function ContactPage() {
   return (
     <div>
       <Contact />
-      <Contact_hero />
+      <ContactHero />
       <ContactEnd />
    
     </div>
